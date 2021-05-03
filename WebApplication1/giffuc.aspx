@@ -70,7 +70,7 @@
                 <ItemTemplate> 
                     <%--具体一行方济各按照width进行调整--%>
                     <%--<asp:Image ID="Image1" height="280" width="280" runat="server" ImageUrl='<%# Eval("ImageUrl") %>' onClick="openimg('<%# Eval("ImageUrl") %>')" /> --%>
-                    <img alt="image" style="text-align: center" src='<%#Eval("ImageUrl")%>' onclick="openimg('<%# Eval("ImageUrl") %>')" />
+                    <img alt="image" style="text-align: center; height:280px; width:280px"  src='<%#Eval("ImageUrl")%>' onclick="openimg('<%# Eval("ImageUrl") %>')" />
                 </ItemTemplate>
             </asp:Repeater>
         </div>
